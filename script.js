@@ -10,6 +10,5 @@
   renderNow();
 
   const intervalId = setInterval(renderNow, 500);
-
-(intervalId), 60_000); // stop after 1 minute
+  
 })();
