@@ -9,7 +9,17 @@
   <title>Simple Profile Card</title>
 </head>
 <body>
-  <main>
+
+  <main class="container">
+    <nav>
+    <i class="fa fa-bars" id="menu-icon"></i>
+    <ul class="sidebar">
+      <li><a href="/Intern project/index.html"><i class="fa fa-home"></i>Home</a></li>
+      <li><a href="/Intern project/about.html"><i class="fa fa-user"></i>About</a></li>
+      <li><a href="/Intern project/contact.html"><i class="fa fa-envelope"></i>Contact</a></li>
+    </ul>
+  </nav>
+    
     <article data-testid="test-profile-card" class="profile-card">
       <header>
         <h2 data-testid="test-user-name">Agbalaya Fauzeeyat</h2>
@@ -31,12 +41,9 @@
 
       <nav data-testid="test-user-social-links" class="social-links">
         <ul>
-          
           <li><a href="https://github.com/fauz-del" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-github"><i class="fab fa-github"></i>GitHub</a></li>
-          
           <li><a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter"><i class="fab fa-twitter"></i>Twitter</a></li>
-          
-          <li><a href="https://www.linkedin.com/in/fauzeeyat-agbalaya-515371220?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin"><i class="fab fa-linkedin"></i>LinkedIn</a></li>
+          <li><a href="https://www.linkedin.com/in/fauzeeyat-agbalaya-515371220" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin"><i class="fab fa-linkedin"></i>LinkedIn</a></li>
         </ul>
       </nav>
 
@@ -54,7 +61,7 @@
         <ul>
           <li>Procrastination</li>
           <li>Messy code</li>
-          <li>Authors on Haitus</li>
+          <li>Author on Haitus</li>
         </ul>
       </section>
     </article>
